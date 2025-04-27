@@ -57,3 +57,7 @@ graph TD
 或者 cd到build目录下 输入 cmake .. 然后输入 make 同样可以
 
 <img src="images/image-20250427172936556.png" alt="image-20250427172936556" style="zoom: 80%;" />
+
+## 问题
+
+版本0.01存在一个问题就是CTest测试阶段失败（退出码8）还未修复
