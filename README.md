@@ -48,8 +48,6 @@ graph TD
   F --> G[map_test/CMakeLists.txt]
 ```
 
-### 解读 CMakeLists.txt 文件
-
 ## 一键构建
 
 构建完之后我们可以借助 cmake 插件 点击生成 然后就会一键构建我们的项目
