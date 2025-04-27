@@ -1,22 +1,25 @@
-project(process)
+project(show_result)
 
 # 添加动态库
-add_library(${PROJECT_NAME} SHARED process.cpp)
+add_library(${PROJECT_NAME}
+  SHARED
+  show_result.cpp
+)
 
 # 添加头文件和依赖
 target_include_directories(${PROJECT_NAME}
   PUBLIC
-  ${PNC_Map_Dir}
+  ${Process_Dir}
 )
 
-# 链接动态库
+# 链接动态库 process
 target_link_libraries(${PROJECT_NAME}
   PUBLIC
-  pnc_map
+  process
 )
 
-# 链接动态库 eigen3
+# 链接动态库 easyx
 target_link_libraries(${PROJECT_NAME}
   PUBLIC
-  Eigen3::Eigen
+  easyx
 )

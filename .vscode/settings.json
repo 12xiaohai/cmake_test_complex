@@ -6,5 +6,6 @@
     "*.txt": "django-txt",
     "CMakeLists.txt": "cmake",
     "ostream": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "enabled"
 }

@@ -1,7 +1,7 @@
 #include <iostream>
 #include "process.h"
-// #include "show_result.h"
-using std::cout, std::endl;
+#include "show_result.h"
+using namespace std;
 
 int main()
 {
@@ -11,8 +11,8 @@ int main()
   cout << "planing end" << endl;
 
   cout << "show result: " << endl;
-  // ShowResult show;
-  // show.drawResult();
+  ShowResult show;
+  show.drawResult();
 
   return 0;
 }
